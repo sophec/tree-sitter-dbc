@@ -6,10 +6,11 @@
       "camelcase": "Dbc",
       "title": "DBC",
       "scope": "source.dbc",
+      "path": ".",
       "file-types": [
         "dbc"
       ],
-      "injection-regex": "^dbc$",
+      "injection-regex": "dbc",
       "class-name": "TreeSitterDbc",
       "highlights": "queries/highlights.scm"
     }
