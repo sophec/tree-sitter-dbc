@@ -278,17 +278,7 @@
   {
     "type": "new_symbols_def",
     "named": true,
-    "fields": {},
-    "children": {
-      "multiple": true,
-      "required": false,
-      "types": [
-        {
-          "type": "end_of_line",
-          "named": true
-        }
-      ]
-    }
+    "fields": {}
   },
   {
     "type": "nodes",

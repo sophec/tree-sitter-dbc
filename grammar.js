@@ -53,7 +53,7 @@ extended_multiplexing
       ':',
       prec.right(repeat(
         seq(
-          optional($.end_of_line),
+          // optional($.end_of_line),
           choice('NS_DESC_', 'CM_', 'BA_DEF_', 'BA_', 'VAL_',
             'CAT_DEF_', 'CAT_', 'FILTER', 'BA_DEF_DEF_', 'EV_DATA_',
             'ENVVAR_DATA_', 'SGTYPE_', 'SGTYPE_VAL_', 'BA_DEF_SGTYPE_',
