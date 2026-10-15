@@ -6,6 +6,7 @@
       "camelcase": "Dbc",
       "title": "DBC",
       "scope": "source.dbc",
+      "path": ".",
       "file-types": [
         "dbc"
       ],
