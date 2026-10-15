@@ -10,7 +10,8 @@
         "dbc"
       ],
       "injection-regex": "^dbc$",
-      "class-name": "TreeSitterDbc"
+      "class-name": "TreeSitterDbc",
+      "highlights": "queries/highlights.scm"
     }
   ],
   "metadata": {
