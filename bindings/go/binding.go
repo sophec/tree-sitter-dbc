@@ -1,8 +1,10 @@
-package tree_sitter_DBC
+package tree_sitter_dbc
 
 // #cgo CFLAGS: -std=c11 -fPIC
 // #include "../../src/parser.c"
-// // NOTE: if your language has an external scanner, add it here.
+// #if __has_include("../../src/scanner.c")
+// #include "../../src/scanner.c"
+// #endif
 import "C"
 
 import "unsafe"

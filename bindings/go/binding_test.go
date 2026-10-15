@@ -1,15 +1,15 @@
-package tree_sitter_DBC_test
+package tree_sitter_dbc_test
 
 import (
 	"testing"
 
-	tree_sitter "github.com/smacker/go-tree-sitter"
-	"github.com/tree-sitter/tree-sitter-DBC"
+	tree_sitter "github.com/tree-sitter/go-tree-sitter"
+	tree_sitter_dbc "github.com/sophec/tree-sitter-dbc/bindings/go"
 )
 
 func TestCanLoadGrammar(t *testing.T) {
-	language := tree_sitter.NewLanguage(tree_sitter_DBC.Language())
+	language := tree_sitter.NewLanguage(tree_sitter_dbc.Language())
 	if language == nil {
-		t.Errorf("Error loading Dbc grammar")
+		t.Errorf("Error loading DBC grammar")
 	}
 }

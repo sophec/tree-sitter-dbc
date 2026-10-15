@@ -1,8 +1,14 @@
+/**
+ * @file Dbc grammar for tree-sitter
+ * @author Sophie Eccles <sophie@eccles.dev>
+ * @license MIT
+ */
+
 /// <reference types="tree-sitter-cli/dsl" />
 // @ts-check
 
 module.exports = grammar({
-  name: 'dbc',
+  name: "dbc",
 
   rules: {
     source_file: $ => seq(
